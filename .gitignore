@@ -1,0 +1,40 @@
+# ---- JetBrains IDEs (PyCharm, IntelliJ, etc.) ----
+.idea/
+*.iml
+*.iws
+out/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.env/
+
+# ---- Distribution / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Unit test / coverage ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# ---- Logs / temporary ----
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
