@@ -14,7 +14,7 @@ def create_dictionary(fname):
         dictionary = {}
         for line in lines:
             # Split the line into key and value
-            key, value = line.split(",")
+            key, value = line.split("/")
             # Update the dictionary
             dictionary[key] = value
         print(dictionary)
