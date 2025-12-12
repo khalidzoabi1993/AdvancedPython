@@ -1,0 +1,582 @@
+{
+    "emails": {
+        "valid": [
+            "alice@@work.net",
+            "bob@data.io",
+            "charlie@data.io",
+            "charlie_x@@example.com",
+            "diana6@@data.io",
+            "diana@shop.co",
+            "emma80@@work.net",
+            "eve_x@@data.io",
+            "frank@example.com",
+            "frank@market.org",
+            "hank@@example.com",
+            "henry@@example.com",
+            "henry@example.com",
+            "henry_x@data.io",
+            "ivy@work.net",
+            "jack@shop.co",
+            "jack_x@shop.co",
+            "james41@example.com",
+            "james_x@@data.io",
+            "liam@example.com",
+            "liam_x@@example.com",
+            "lucas@work.net",
+            "lucas_x@@shop.co",
+            "mia@market.org",
+            "mia_x@@shop.co",
+            "noah39@market.org",
+            "noah@@data.io",
+            "noah@shop.co",
+            "noah_x@@work.net",
+            "sophia@@data.io",
+            "sophia@@example.com",
+            "sophia_x@@data.io",
+            "sophia_x@@market.org",
+            "sophia_x@@work.net"
+        ],
+        "invalid": [
+            "benjamin87@invalid-domain",
+            "benjamin_work.net",
+            "bob_x@test",
+            "emma@invalid-domain",
+            "emma_x@xx",
+            "eve5@test",
+            "eve@invalid-domain",
+            "frank@bad",
+            "frank@mail",
+            "grace29_shop.co",
+            "grace@mail",
+            "grace@xx",
+            "hank@bad",
+            "hank@mail",
+            "ivy_data.io",
+            "ivy_example.com",
+            "ivy_market.org",
+            "ivy_x@xx",
+            "james@xx",
+            "liam@test",
+            "liam_x@test",
+            "lucas@bad",
+            "lucas@test",
+            "lucas@xx",
+            "lucas_example.com",
+            "mia@mail",
+            "mia_example.com",
+            "mia_shop.co",
+            "mia_x_data.io",
+            "noah_example.com",
+            "olivia26@xx",
+            "olivia@bad",
+            "olivia_work.net",
+            "olivia_x_data.io",
+            "sophia7_example.com"
+        ]
+    },
+    "names": {
+        "valid": [
+            "Charlie",
+            "Emma",
+            "Frank",
+            "Henry",
+            "Ivy",
+            "Liam",
+            "Lucas",
+            "Mia",
+            "Noah",
+            "Olivia",
+            "Sophia"
+        ],
+        "invalid": [
+            "Benjamin87",
+            "Bob_x",
+            "Charlie_x",
+            "Diana6",
+            "Emma80",
+            "Emma_x",
+            "Eve5",
+            "Eve_x",
+            "Grace29",
+            "Henry_x",
+            "Ivy_x",
+            "Jack_x",
+            "James41",
+            "James_x",
+            "Liam_x",
+            "Lucas_x",
+            "Mia_x",
+            "Noah39",
+            "Noah_x",
+            "Olivia26",
+            "Olivia_x",
+            "Sophia7",
+            "Sophia_x",
+            "alice",
+            "benjamin",
+            "bob",
+            "diana",
+            "eve",
+            "frank",
+            "grace",
+            "hank",
+            "ivy",
+            "jack",
+            "james",
+            "liam",
+            "lucas",
+            "mia",
+            "noah",
+            "sophia"
+        ]
+    },
+    "usersCount": 71,
+    "moreThanThreePurchasesCount": 36,
+    "basicStats": {
+        "averageAge": 42.99,
+        "oldestUser": {
+            "id": 22,
+            "name": "Grace29",
+            "age": 65
+        },
+        "youngestUser": {
+            "id": 28,
+            "name": "Sophia7",
+            "age": 18
+        },
+        "usersWithoutPurchasesCount": 10
+    },
+    "purchaseStats": {
+        "totalPurchaseEvents": 256,
+        "totalMoneySpent": 39053.07,
+        "highestSinglePurchase": {
+            "userId": 46,
+            "name": "Sophia",
+            "amount": 299.66
+        },
+        "top3Spenders": [
+            {
+                "id": 3,
+                "name": "Liam_x",
+                "total": 1481.31
+            },
+            {
+                "id": 56,
+                "name": "eve",
+                "total": 1454.91
+            },
+            {
+                "id": 45,
+                "name": "James_x",
+                "total": 1408.12
+            }
+        ]
+    },
+    "ageGroups": {
+        "Young": [
+            {
+                "id": 3,
+                "name": "Liam_x",
+                "age": 23
+            },
+            {
+                "id": 5,
+                "name": "Sophia",
+                "age": 25
+            },
+            {
+                "id": 9,
+                "name": "Henry",
+                "age": 20
+            },
+            {
+                "id": 25,
+                "name": "Sophia_x",
+                "age": 22
+            },
+            {
+                "id": 28,
+                "name": "Sophia7",
+                "age": 18
+            },
+            {
+                "id": 29,
+                "name": "Noah39",
+                "age": 22
+            },
+            {
+                "id": 34,
+                "name": "diana",
+                "age": 19
+            },
+            {
+                "id": 50,
+                "name": "Liam_x",
+                "age": 23
+            },
+            {
+                "id": 52,
+                "name": "Charlie",
+                "age": 24
+            },
+            {
+                "id": 59,
+                "name": "sophia",
+                "age": 23
+            },
+            {
+                "id": 65,
+                "name": "Sophia_x",
+                "age": 20
+            },
+            {
+                "id": 67,
+                "name": "grace",
+                "age": 19
+            }
+        ],
+        "Adult": [
+            {
+                "id": 1,
+                "name": "alice",
+                "age": 38
+            },
+            {
+                "id": 2,
+                "name": "noah",
+                "age": 39
+            },
+            {
+                "id": 4,
+                "name": "Eve5",
+                "age": 39
+            },
+            {
+                "id": 8,
+                "name": "Emma80",
+                "age": 38
+            },
+            {
+                "id": 11,
+                "name": "Emma_x",
+                "age": 37
+            },
+            {
+                "id": 13,
+                "name": "hank",
+                "age": 33
+            },
+            {
+                "id": 14,
+                "name": "Noah_x",
+                "age": 26
+            },
+            {
+                "id": 19,
+                "name": "Diana6",
+                "age": 28
+            },
+            {
+                "id": 20,
+                "name": "Olivia26",
+                "age": 27
+            },
+            {
+                "id": 26,
+                "name": "lucas",
+                "age": 33
+            },
+            {
+                "id": 35,
+                "name": "Olivia",
+                "age": 31
+            },
+            {
+                "id": 40,
+                "name": "Sophia_x",
+                "age": 35
+            },
+            {
+                "id": 49,
+                "name": "Benjamin87",
+                "age": 26
+            },
+            {
+                "id": 54,
+                "name": "Lucas",
+                "age": 35
+            },
+            {
+                "id": 55,
+                "name": "Jack_x",
+                "age": 29
+            },
+            {
+                "id": 58,
+                "name": "Emma",
+                "age": 35
+            },
+            {
+                "id": 61,
+                "name": "ivy",
+                "age": 27
+            },
+            {
+                "id": 62,
+                "name": "frank",
+                "age": 26
+            },
+            {
+                "id": 68,
+                "name": "mia",
+                "age": 40
+            }
+        ],
+        "Senior": [
+            {
+                "id": 6,
+                "name": "Olivia_x",
+                "age": 60
+            },
+            {
+                "id": 10,
+                "name": "Liam",
+                "age": 46
+            },
+            {
+                "id": 15,
+                "name": "Henry_x",
+                "age": 43
+            },
+            {
+                "id": 16,
+                "name": "Lucas_x",
+                "age": 41
+            },
+            {
+                "id": 17,
+                "name": "frank",
+                "age": 56
+            },
+            {
+                "id": 18,
+                "name": "James41",
+                "age": 53
+            },
+            {
+                "id": 21,
+                "name": "Bob_x",
+                "age": 49
+            },
+            {
+                "id": 23,
+                "name": "noah",
+                "age": 55
+            },
+            {
+                "id": 24,
+                "name": "liam",
+                "age": 57
+            },
+            {
+                "id": 27,
+                "name": "grace",
+                "age": 47
+            },
+            {
+                "id": 32,
+                "name": "Eve_x",
+                "age": 57
+            },
+            {
+                "id": 33,
+                "name": "ivy",
+                "age": 52
+            },
+            {
+                "id": 36,
+                "name": "Noah",
+                "age": 44
+            },
+            {
+                "id": 37,
+                "name": "james",
+                "age": 58
+            },
+            {
+                "id": 38,
+                "name": "mia",
+                "age": 53
+            },
+            {
+                "id": 39,
+                "name": "Ivy",
+                "age": 52
+            },
+            {
+                "id": 41,
+                "name": "bob",
+                "age": 57
+            },
+            {
+                "id": 43,
+                "name": "Lucas",
+                "age": 53
+            },
+            {
+                "id": 44,
+                "name": "Frank",
+                "age": 59
+            },
+            {
+                "id": 46,
+                "name": "Sophia",
+                "age": 50
+            },
+            {
+                "id": 48,
+                "name": "ivy",
+                "age": 55
+            },
+            {
+                "id": 51,
+                "name": "Noah",
+                "age": 56
+            },
+            {
+                "id": 53,
+                "name": "Olivia",
+                "age": 47
+            },
+            {
+                "id": 56,
+                "name": "eve",
+                "age": 50
+            },
+            {
+                "id": 60,
+                "name": "Lucas",
+                "age": 46
+            },
+            {
+                "id": 63,
+                "name": "Mia",
+                "age": 57
+            },
+            {
+                "id": 64,
+                "name": "Mia",
+                "age": 56
+            },
+            {
+                "id": 66,
+                "name": "jack",
+                "age": 53
+            },
+            {
+                "id": 69,
+                "name": "Ivy_x",
+                "age": 43
+            },
+            {
+                "id": 70,
+                "name": "Charlie_x",
+                "age": 56
+            },
+            {
+                "id": 71,
+                "name": "hank",
+                "age": 45
+            }
+        ],
+        "Elder": [
+            {
+                "id": 7,
+                "name": "Frank",
+                "age": 61
+            },
+            {
+                "id": 12,
+                "name": "Henry",
+                "age": 63
+            },
+            {
+                "id": 22,
+                "name": "Grace29",
+                "age": 65
+            },
+            {
+                "id": 30,
+                "name": "hank",
+                "age": 61
+            },
+            {
+                "id": 31,
+                "name": "Mia_x",
+                "age": 64
+            },
+            {
+                "id": 42,
+                "name": "Mia_x",
+                "age": 62
+            },
+            {
+                "id": 45,
+                "name": "James_x",
+                "age": 65
+            },
+            {
+                "id": 47,
+                "name": "benjamin",
+                "age": 63
+            },
+            {
+                "id": 57,
+                "name": "lucas",
+                "age": 62
+            }
+        ]
+    },
+    "usersWithoutPurchases": [
+        {
+            "id": 4,
+            "name": "Eve5"
+        },
+        {
+            "id": 20,
+            "name": "Olivia26"
+        },
+        {
+            "id": 27,
+            "name": "grace"
+        },
+        {
+            "id": 31,
+            "name": "Mia_x"
+        },
+        {
+            "id": 39,
+            "name": "Ivy"
+        },
+        {
+            "id": 40,
+            "name": "Sophia_x"
+        },
+        {
+            "id": 41,
+            "name": "bob"
+        },
+        {
+            "id": 57,
+            "name": "lucas"
+        },
+        {
+            "id": 59,
+            "name": "sophia"
+        },
+        {
+            "id": 64,
+            "name": "Mia"
+        }
+    ]
+}
